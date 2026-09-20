@@ -28,8 +28,35 @@
       margin-top: 0;
     }
 
+    .app {
+      padding: 24px 0;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .app:first-of-type {
+      border-top: none;
+      padding-top: 8px;
+    }
+
+    .app h3 {
+      margin-bottom: 8px;
+    }
+
+    .app p {
+      margin-top: 0;
+    }
+
     a {
       color: #16733a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .beauty-link {
+      color: #8d5875;
     }
 
     .footer {
@@ -53,15 +80,33 @@
 
     <h2>Applications</h2>
 
-    <p>
-      <strong>Padel App – Score & Americano</strong><br>
-      Organize padel matches, keep score and manage Americano games,
-      with optional Wear OS integration.
-    </p>
+    <div class="app">
+      <h3>Padel App – Score & Americano</h3>
 
-    <p>
-      <a href="/padelapp/">Learn more about Padel App</a>
-    </p>
+      <p>
+        Organize padel matches, keep score and manage Americano games,
+        with optional Wear OS integration.
+      </p>
+
+      <p>
+        <a href="/padelapp/">Learn more about Padel App</a>
+      </p>
+    </div>
+
+    <div class="app">
+      <h3>Beauty Shelf</h3>
+
+      <p>
+        Organize skincare and personal care products, create flexible routines,
+        track usage and expiration dates, and review your routine history.
+      </p>
+
+      <p>
+        <a class="beauty-link" href="/beautyshelf/">
+          Learn more about Beauty Shelf
+        </a>
+      </p>
+    </div>
 
     <h2>Contact</h2>
 
